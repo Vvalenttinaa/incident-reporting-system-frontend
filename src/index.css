@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Righteous&family=Roboto:wght@300;400&family=Space+Mono&family=Ubuntu&family=Ubuntu+Mono&display=swap');
+
+:root {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.map-component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+  width: 100%;
+}
+
+.map {
+  height: 500px;
+  width: 100%;
+  background-color: rgb(125, 193, 220);
+  color: whitesmoke;
+}
+
+/* --- (4) Leaflet container with map dimensions (other properties optional) --- */
+.leaflet-container {
+  height: 500px;
+  width: 100%;
+}
+
+.leaflet-control-attribution {
+  font-size: small;
+}
+
+.dropzone{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 130px;
+  width: 90%;
+  border: 4px dashed rgb(177, 201, 236);
+  padding: 20px;
+  font-size: small;
+  text-align: center;
+  
+}
+
+.button{
+  padding: 12px;
+}
+
+.buttonAddIncident{
+  width: 500;
+}
+
+.custom-popup{
+  font-size: 10px;
+  text-align: center;
+}

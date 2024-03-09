@@ -1,0 +1,21 @@
+// RejectedReqModal.js
+import React from "react";
+import { Modal, Table } from "antd";
+
+const RejectedReqModal = (props) => {
+  const { title, visible, onOk, onCancel, columns, data } = props;
+
+  return (
+    <Modal
+      title={title}
+      visible={visible}
+      onOk={onOk}
+      onCancel={onCancel}
+      footer={null}
+    >
+      <Table dataSource={data} columns={columns} />
+    </Modal>
+  );
+};
+
+export default RejectedReqModal;
